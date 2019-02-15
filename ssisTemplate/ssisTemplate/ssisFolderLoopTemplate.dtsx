@@ -5,42 +5,20 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="PTPN4DEVSQL01"
   DTS:CreatorName="PTP.COM.MY\chan.mn"
-  DTS:DTSID="{9B937177-19E8-46B8-9BBC-96ED2E871EBE}"
+  DTS:DTSID="{97D5C9A9-5DDB-4245-9C69-8ED9E9A59A01}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="14.0.3002.106"
   DTS:LocaleID="1033"
   DTS:ObjectName="ssisFolderLoopTemplate"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{38704756-8EEA-451D-9787-C97B03EA3880}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{5C6C28A7-460C-4142-B927-7AE23048B910}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
-  <DTS:ConnectionManagers>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[LocalHost.uCustomsStaging]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{0BC6BA8E-4F7F-4BAF-B90F-98BDE3ED7FB5}"
-      DTS:ObjectName="LocalHost.uCustomsStaging">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=.;Initial Catalog=uCustomsStaging;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[LocalHost.uCustomsStaging 1]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{3C5B1599-C003-4CC8-8A5E-9C528742A87B}"
-      DTS:ObjectName="LocalHost.uCustomsStaging 1">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=.;Initial Catalog=uCustomsStaging;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-  </DTS:ConnectionManagers>
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{99C7008B-F743-4479-9C1D-54B631E2BC03}"
+      DTS:DTSID="{7492FAC4-1C23-49FF-BD54-93B2F71BB628}"
       DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
       DTS:ObjectName="varFileName">
@@ -53,13 +31,13 @@
       DTS:refId="Package\Load Nighly Data Files"
       DTS:CreationName="STOCK:FOREACHLOOP"
       DTS:Description="Foreach Loop Container"
-      DTS:DTSID="{7648AE65-D775-45B4-A476-1362A91AE36E}"
+      DTS:DTSID="{1EEC3048-D2BF-48F9-BBE3-FEDA8AA8897E}"
       DTS:ExecutableType="STOCK:FOREACHLOOP"
       DTS:LocaleID="-1"
       DTS:ObjectName="Load Nighly Data Files">
       <DTS:ForEachEnumerator
         DTS:CreationName="Microsoft.ForEachFileEnumerator"
-        DTS:DTSID="{4DE56A8E-7334-4E13-922F-D053FAEB1D35}"
+        DTS:DTSID="{DB014347-7260-457C-9322-677A51AD6FED}"
         DTS:ObjectName="{F6B3DE64-0D8C-4F99-852C-10F2AD30CED3}">
         <DTS:ObjectData>
           <ForEachFileEnumeratorProperties>
@@ -79,8 +57,8 @@
       <DTS:ForEachVariableMappings>
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{AD81B59B-BDFB-4F43-B267-45CF52A08655}"
-          DTS:ObjectName="{AD81B59B-BDFB-4F43-B267-45CF52A08655}"
+          DTS:DTSID="{803953D3-3CF0-4A9C-9F7B-27EF85003B7A}"
+          DTS:ObjectName="{803953D3-3CF0-4A9C-9F7B-27EF85003B7A}"
           DTS:ValueIndex="0"
           DTS:VariableName="User::varFileName" />
       </DTS:ForEachVariableMappings>

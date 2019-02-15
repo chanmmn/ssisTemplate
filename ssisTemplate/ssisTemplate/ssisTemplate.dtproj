@@ -26,26 +26,26 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DELL5480</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALH8TCYsb/U+sEYSLALQgSgAAAAACAAAAAAADZgAAwAAAABAAAACpY9ungm/v8F5JnEOsWiXUAAAAAASAAACgAAAAEAAAANHtK+yJ/ubn0Hc+jxU2MsyIAAAAplxHvXhh6oTiVfwBCSSrWF3FNVa5pezZ06ODKpoFjGlcoZfgba5bjd63WYMBR4H7XZxyE3N8I83AsgaksSXOOnkcJWr6UojOsGfJI8vovn+Mk8didafrSrdzaPXAMj944n8Co9XnpMlzOzZ9nL6xTgVFMkUvL70PiI/6hinNvoA4pT1Oa/LzVBQAAAD9J7e+GxI1uL9hV3Eji+er+gYAxg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALH8TCYsb/U+sEYSLALQgSgAAAAACAAAAAAADZgAAwAAAABAAAABo5ChJalTUcv65zjJ1NrZJAAAAAASAAACgAAAAEAAAAOcDNyTLmrVUVpbF/LakIWmIAAAAEkbk/MNsiT8Btu8V4rZbB2MjpqG4iqyLfvf1xK3LHdtfwco1HbKamxiyXtv8eNW3EGcH78iYH3Y7wLzfhEV92Fa8EDEko0XgtpsCNpbBglB/D9vp/tmFk/Iep9AwheCTr2xR/2PcPwaTrYphbCDenOYG0Gv4D/GfF4dGVgXESZNwmlad2Ql7SxQAAACLrfv1bUYncu1W1SbVxfUtNInHKQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="Package.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="ssisFolderLoopTemplate.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters />
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="Package.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="ssisFolderLoopTemplate.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{8D754EDD-D706-4D13-97C2-15E62A44B855}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{97D5C9A9-5DDB-4245-9C69-8ED9E9A59A01}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">ssisFolderLoopTemplate</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{C96CBCE6-C022-4979-9B8D-7EB0A8F3E967}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{5C6C28A7-460C-4142-B927-7AE23048B910}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
